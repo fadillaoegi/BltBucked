@@ -14,5 +14,8 @@ var text2 = Text(
   "Pengeluaran berdasarkan kategori",
   style: tittle2,
 );
-var text3 = Text("Hari ini");
-var text4 = Text("Kemarin");
+var text3 = Text(
+  "Hari ini",
+  style: textCard3.copyWith(fontSize: 14.0),
+);
+var text4 = Text("Kemarin", style: textCard3.copyWith(fontSize: 14.0),);
