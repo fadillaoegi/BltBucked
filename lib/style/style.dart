@@ -28,6 +28,8 @@ TextStyle textCard3 =
     GoogleFonts.sourceSansPro(fontWeight: FontWeight.w700, color: black);
 TextStyle textCard4 =
     GoogleFonts.sourceSansPro(fontWeight: FontWeight.w400, color: black);
+TextStyle textCard5 =
+    GoogleFonts.sourceSansPro(fontWeight: FontWeight.w700, color: white);
 
 TextStyle sub1 = GoogleFonts.sourceSansPro(
     fontWeight: FontWeight.w400, fontSize: 14.0, color: color4);
