@@ -1,7 +1,9 @@
+import 'package:bltbukcet/pages/addExpense.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import '../style/style.dart';
 import '../text/textHome.dart';
+import 'addExpense.dart';
 
 class home extends StatefulWidget {
   home({Key? key}) : super(key: key);
@@ -18,7 +20,8 @@ class _homeState extends State<home> {
     return MaterialApp(
         home: Scaffold(
       floatingActionButton: FloatingActionButton(
-        onPressed: () => debugPrint("Tombol Tambah telah ditekan"),
+        onPressed: () =>
+            Navigator.pushNamed(context, "/lib/pages/addExpense.dart"),
         child: Icon(Icons.add, size: 30),
       ),
       body: SafeArea(
