@@ -10,14 +10,22 @@ class addExpense extends StatefulWidget {
 class _addExpenseState extends State<addExpense> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {},
-        child: Icon(
-          Icons.add,
-          size: 30.0,
-        ),),
-      body: SafeArea(child: Text("Tessting")),
-    );
+    return MaterialApp(
+        home: Scaffold(
+            body: SafeArea(
+                child: Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Padding(
+          padding: EdgeInsets.only(left: 20.0, right: 20.0, top: 60.0),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              
+            ],
+          ),
+        )
+      ],
+    ))));
   }
 }

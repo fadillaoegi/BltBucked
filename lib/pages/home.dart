@@ -18,7 +18,7 @@ class _homeState extends State<home> {
     return MaterialApp(
         home: Scaffold(
       floatingActionButton: FloatingActionButton(
-        onPressed: () => {},
+        onPressed: () => debugPrint("Tombol Tambah telah ditekan"),
         child: Icon(Icons.add, size: 30),
       ),
       body: SafeArea(

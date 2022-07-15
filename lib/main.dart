@@ -1,3 +1,4 @@
+import 'package:bltbukcet/pages/addExpense.dart';
 import 'package:flutter/material.dart';
 import 'pages/home.dart';
 
@@ -13,6 +14,6 @@ class App extends StatefulWidget {
 class _AppState extends State<App> {
   @override
   Widget build(BuildContext context) {
-    return home();
+    return addExpense();
   }
 }
