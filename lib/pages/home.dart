@@ -17,6 +17,10 @@ class _homeState extends State<home> {
   Widget build(BuildContext context) {
     return MaterialApp(
         home: Scaffold(
+      floatingActionButton: FloatingActionButton(
+        onPressed: () => {},
+        child: Icon(Icons.add, size: 30),
+      ),
       body: SafeArea(
         child: SingleChildScrollView(
             child: Padding(
