@@ -37,3 +37,6 @@ TextStyle sub2 = GoogleFonts.sourceSansPro(
     fontWeight: FontWeight.w400, fontSize: 12.0, color: color4);
 TextStyle sub3 = GoogleFonts.sourceSansPro(
     fontWeight: FontWeight.w700, fontSize: 12.0, color: black);
+
+TextStyle sub4 = GoogleFonts.sourceSansPro(
+    fontWeight: FontWeight.w700, fontSize: 12.0, color: white);
